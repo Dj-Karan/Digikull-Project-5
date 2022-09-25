@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 0px 60px;
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+/*.active-item{
+    color: rgb(250, 97, 59);
+}*/
+.intro-section{
+    display: flex;
+    
+}
+.left-section{
+    margin: 30px 0px 0px 60px;
+}
+h3{
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 10px 0px;
+}
+h1{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0px;
+}
+h5{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.text{
+    padding: 10px 0px;
+    color: lightgray;
+}
+.sub-headline img{
+    border-radius: 360px;
+    background-color: rgb(250, 97, 59);
+}
+.sub-headlines{
+    position: relative;
+    left: 50px;
+}
+.nav-item:hover{
+    color: rgb(250, 97, 59);
+}
+.active-item{
+    color: rgb(250, 97, 59);
+}
+.action-btns{
+    padding: 30px 0px;
+    display: flex;
+    gap: 30px;
+}
+.action-btn{
+    padding: 15px 40px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: rgb(250, 97, 59);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.right-section{
+    position: relative;
+    left: 60px;
+}
+.discount{
+    position: absolute;
+    top: 220px;
+    right: 300px;
+    width: 120px;
+}
+.discount-content{
+    position: absolute;
+    top: 250px;
+    font-size: 15px;
+    color: white;
+}
+.discount-content h1{
+    font-size: 30px;
+}
+.headphone{
+    height: 400px;
+}
+.yellow-dot{
+  height: 25px;
+  width: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+.tomato-dot{
+  height: 25px;
+  width: 25px;
+  background-color: tomato;
+  border-radius: 50%;
+}
+.black-dot{
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 50%;
+}
+.dots{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    left: 120px;
+}
+.right-section .action-btn{
+    position: relative;
+    left: 110px;
+    top: 30px;
+}
